@@ -1,0 +1,32 @@
+User Story: Access Booking API
+
+As a registered user,
+I want to be able to use the https://restful-booker.herokuapp.com/booking endpoint,
+so that I can retrieve and manage booking information.
+
+Acceptance Criteria
+Get all bookings
+User can retrieve a list of all bookings using GET /booking.
+API returns HTTP 200 OK when the request is successful.
+Response contains a list of booking IDs.
+User can retrieve booking IDs filtered by firstname and/or lastname.
+Get a booking by ID
+User can retrieve booking details using GET /booking/{id}.
+API returns HTTP 200 OK when the booking exists.
+Response contains booking details, including:
+First name
+Last name
+Total price
+Deposit paid status
+Booking dates
+Additional needs
+API returns HTTP 404 Not Found if the booking ID does not exist.
+Response validation
+API returns data in JSON format when JSON is requested.
+Response structure matches the expected schema.
+Appropriate HTTP status codes are returned for successful and unsuccessful requests.
+API Details
+Base URL: https://restful-booker.herokuapp.com
+Endpoint: /booking
+Supported methods: GET
+Authentication: Not required for retrieving booking information.
