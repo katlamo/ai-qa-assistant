@@ -30,8 +30,8 @@ Thumbs.db
 .claude/settings.local.json
 
 # Generated run outputs (keep the results/ folder itself)
-results/*
-!results/.gitkeep
+#results/*
+#!results/.gitkeep
 
 # Scratch input
 text.txt
