@@ -75,7 +75,7 @@ The task can also be passed through stdin:
 cat task.txt | python -m agent.main analyze
 ```
 
-Results are printed to the console and saved to the files listed above.
+Results are saved in \results folder.
 
 ## Example Input
 
@@ -108,4 +108,4 @@ The full report (`results/qa_report.md`) contains the analysis and the test case
 - Pytest integration
 - Interactive mode: the agent asks follow-up questions and continues with the answers
 
-> ⚠️ This is an experimental portfolio project, not a replacement for manual QA analysis. All results should be checked.
+> ⚠️ This is an experimental project, not a replacement for QA analysis. All results should be checked.
